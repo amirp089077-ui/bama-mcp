@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bama-mcp"
+version = "1.0.0"
+description = "Production Model Context Protocol (MCP) Server for Bama Automotive Marketplace (باما)"
+readme = "README.md"
+authors = [{ name = "amirp089077-ui" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+bama-mcp = "bama_mcp.server:main"

@@ -1,0 +1,2 @@
+[console_scripts]
+bama-mcp = bama_mcp.server:main
